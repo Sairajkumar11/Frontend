@@ -1,0 +1,43 @@
+.container1{
+    width:1200px;
+    margin:40px 0px 0px 120px;
+    position: relative;
+}
+img{
+    width:100%;
+}
+b{
+    background-color: rgb(54, 54, 54);
+    padding:15px 12px 10px 12px;
+}
+p{
+    color: white;
+    font-size: 35px;
+    margin:0;
+    padding:10;
+    position: absolute;
+    top:45%;
+    left:43%;
+}
+pre{
+    background-color: black;
+    color: white;
+    padding:10px;
+    position:absolute;
+    top:0;
+    margin:0;
+}
+.container2{
+    width:1200px;
+    margin:80px 0px 0px 120px;
+}
+.sub1{
+    width:1300px;
+}
+.child1{
+    width:287px;
+    margin:5px;
+    display: inline-block;
+    position:relative;
+}
+
