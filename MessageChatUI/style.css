@@ -125,23 +125,14 @@ sub{
     display: inline-block;
     position: relative;
 }
-.mic{
-    background-color: rgb(6, 110, 6);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 5px;
-    display: inline-block;
-    position:relative;
-}
 .bottomicon{
     width:290px;
     height:40px;
     margin:4px 0px 0px 15px;
     position: absolute;
 }
-.bi-image-fill{
-    font-size: 30px;
+.bi-window-dock{
+    font-size: 25px;
     margin:4px 0px 0px 2px;
     display: inline-block;
 }
@@ -152,33 +143,44 @@ input{
     border: 1px solid black;
     border-radius: 10px;
     height: 30px;
-    margin:5px;
+    margin:5px 0px 0px 10px;
     padding: 0px;
     display: inline-block;
     position: absolute;
 }
 .bi-paperclip{
-    font-size: 30px;
-    margin:4px 0px 0px 170px;
+    font-size: 25px;
+    margin:4px 0px 0px 180px;
     display: inline-block;
     position: absolute;
 }
 .bi-currency-rupee{
-    font-size: 30px;
-    margin:4px 0px 0px 190px;
+    font-size: 25px;
+    margin:4px 0px 0px 200px;
     display: inline-block;
     position: absolute;
 }
 .bi-camera{
-    font-size: 30px;
-    margin:4px 0px 0px 220px;
+    font-size: 25px;
+    margin:4px 0px 0px 230px;
     display: inline-block;
     position: absolute;
+}
+.mic{
+    background-color: rgb(6, 110, 6);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    position:relative;
 }
 .micicon{
     position: absolute;
 }
 .micicon i{
-    margin-left: 5px;
-    font-size: 40px;
+    margin-top: 8px;
+    margin-left: 9px;
+    font-size: 30px;
+    position: absolute;
 }
