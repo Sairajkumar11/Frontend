@@ -1,0 +1,28 @@
+.container{
+    width: 560px;
+}
+img{
+    padding: 10px;
+}
+.row-e{
+    display: flex;
+}
+.row-o{
+    display: flex;
+}
+.rowe{
+    width: 70px;
+    height: 70px;
+    background-color: beige;
+}
+.rowe:nth-child(even){
+    background-color: rgb(137, 184, 137);
+}
+.rowo{
+    width: 70px;
+    height: 70px;
+    background-color: beige;
+}
+.rowo:nth-child(odd){
+    background-color: rgb(137, 184, 137);
+}
