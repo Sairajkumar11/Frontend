@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(94, 207, 94);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.sub{
+    background-color: black;
+    width: 15px;
+    height:50px;
+    border-radius: 50px;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+.sub1{
+    animation-name: pillar1;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+}
+@keyframes pillar1 {
+    0%{
+        transform:scaleY(3.4);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub2{
+    animation-name: pillar2;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+}
+@keyframes pillar2 {
+    0%{
+        transform:scaleY(2.6);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub3{
+    animation-name: pillar3;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+}
+@keyframes pillar3 {
+    0%{
+        transform:scaleY(4);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub4{
+    animation-name: pillar4;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+}
+@keyframes pillar4 {
+    0%{
+        transform:scaleY(2.7);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub5{
+    animation-name: pillar5;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+@keyframes pillar5 {
+    0%{
+        transform:scaleY(4);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub6{
+    animation-name: pillar6;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+}
+@keyframes pillar6 {
+    0%{
+        transform:scaleY(1.8);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub7{
+    animation-name: pillar7;
+    animation-duration: 0.5s;
+    animation-delay: 0.8s;
+}
+@keyframes pillar7 {
+    0%{
+        transform:scaleY(3.5);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub8{
+    animation-name: pillar8;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+}
+@keyframes pillar8 {
+    0%{
+        transform:scaleY(2.5);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
+.sub9{
+    animation-name: pillar9;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+}
+@keyframes pillar9{
+    0%{
+        transform:scaleY(3);
+    }
+   
+    100%{
+        transform:scaleY(1);
+    }
+}
